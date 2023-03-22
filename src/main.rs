@@ -108,4 +108,5 @@ fn another_bug(){
 fn main() {
     setup("main - bug1",true,true,0).run().unwrap();
     setup("main - bug2",true,true,2).run().unwrap();
+    setup("main - bug3",false,true,2).run().unwrap();
 }
